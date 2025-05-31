@@ -1,0 +1,14 @@
+{
+  "applicationNodes": [],
+  "programNodes": [
+    {
+      "excludeFromToolbox": false,
+      "translationPath": "assets/i18n/",
+      "iconURI": "assets/icons/global-variable-x-program.svg",
+      "behaviorURI": "global-variable-x-program.worker.js",
+      "presenterURI": "main.js",
+      "componentTagName": "funh-global-variable-x-global-variable-x-program"
+    }
+  ],
+  "smartSkills": []
+}
