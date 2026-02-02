@@ -1,50 +1,75 @@
-# See http://help.github.com/ignore-files/ for more about ignoring files.
+# Build outputs
+dist/
+target/
+*.urcapx
 
-# compiled output
-/dist
-/tmp
-/out-tsc
-/target
-# Only exists if Bazel was run
-/bazel-out
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
 
-# dependencies
-/node_modules
-/npm
-/node
+# Frontend build artifacts
+global-variable-x-frontend/dist/
+global-variable-x-frontend/.angular/
+global-variable-x-frontend/node_modules/
 
-# profiling files
-chrome-profiler-events*.json
-speed-measure-plugin*.json
+# Docker
+*.tar
 
-# IDEs and editors
-/.idea
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
-
-# IDE - VSCode
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-.history/*
-
-# misc
-/.angular/cache
-/.sass-cache
-/connect.lock
-/coverage
-/libpeerconnection.log
-npm-debug.log
-yarn-error.log
-testem.log
-/typings
-
-# System Files
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
 .DS_Store
+*.iml
+
+# OS files
 Thumbs.db
+Desktop.ini
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Testing
+coverage/
+.nyc_output/
+*.lcov
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup
+
+# Debug files
+*.orig
+*.rej
+
+# Accidentally created files from build scripts
+mkdir
+ng
+npm
+rimraf
+docker
+transferring
+exporting
+naming
+writing
+CACHED
+validate-manifest
+generate-manifest-constants
+contribution-constants.ts
+*@*.*.0
+"[internal]"
+=
