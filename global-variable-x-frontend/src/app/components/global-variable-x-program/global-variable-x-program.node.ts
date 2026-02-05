@@ -1,9 +1,9 @@
-import { ProgramNode, TabInputModel, URVariable } from '@universal-robots/contribution-api';
+import { ProgramNode, TabInputModel, VariableDeclaration } from '@universal-robots/contribution-api';
 
 export interface GlobalVariableXProgramNode extends ProgramNode {
     type: string;
-    parameters?: {
-        variable: URVariable;
+    parameters: {
+        variable: VariableDeclaration;
     };
     lockChildren?: boolean;
     allowsChildren?: boolean;

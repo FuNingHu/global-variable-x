@@ -21,7 +21,7 @@
           "builder": "ngx-build-plus:browser",
           "options": {
             "singleBundle": true,
-            "outputPath": "dist/global-variable-x",
+            "outputPath": "dist/global-variable-x-frontend",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
