@@ -16,7 +16,7 @@ import { async } from 'rxjs';
 
 // programNodeLabel is required
 const createProgramNodeLabel = (node: GlobalVariableXProgramNode): OptionalPromise<string> => {
-    return node.parameters.variable.name;
+    return node.parameters.variable.name; // TODO: add translation key
 };
 
 // generateCodeBeforeChildren is optional
